@@ -8,6 +8,7 @@ public class SpringBootShoppingProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootShoppingProjectApplication.class, args);
+		System.out.println("Welcome to Telusko");
 	}
 
 }

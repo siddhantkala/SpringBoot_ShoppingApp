@@ -1,0 +1,11 @@
+package com.siddhant.SpringBoot_ShoppingProject.repository;
+
+import com.siddhant.SpringBoot_ShoppingProject.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepo extends JpaRepository<Product, Integer>
+{
+
+}
